@@ -9,6 +9,7 @@ in
   entryscript = import ./images/entryscript.nix { inherit pkgs; };
   nyancat = import ./images/nyancat.nix { inherit pkgs; };
   sl = import ./images/sl.nix { inherit pkgs; };
+  hugepkg = import ./images/hugepkg.nix { inherit pkgs; };
   toolbox = import ./images/toolbox.nix { inherit pkgs; };
   inherit pkgs;
 }
